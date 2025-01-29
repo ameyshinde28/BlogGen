@@ -26,7 +26,7 @@ def get_llama_response(input_text, number_of_words, blog_style):
     )
     print(prompt)
 
-    # Generate response from the Llama3.3 model
+    ## Generate response from the Llama3.3 model
 
     # Without streaming
     # llm_response = llm.invoke(prompt) 
